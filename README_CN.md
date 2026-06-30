@@ -25,18 +25,18 @@
 ## 📦 安装说明
 
 1. 克隆仓库：
-`ash
+`bash
 git clone git@github.com:deathwawa/oi-ui.git
 cd oi-ui
 `
 
 2. 安装依赖：
-`ash
+`bash
 npm install
 `
 
 3. 启动开发服务器：
-`ash
+`bash
 npm run dev
 `
 

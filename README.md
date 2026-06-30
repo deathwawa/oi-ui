@@ -27,18 +27,18 @@ A modern web application featuring interactive 3D generative art built with Reac
 ## 📦 Installation
 
 1. Clone the repository:
-`ash
+`bash
 git clone <repository-url>
 cd test
 `
 
 2. Install dependencies:
-`ash
+`bash
 npm install
 `
 
 3. Start the development server:
-`ash
+`bash
 npm run dev
 `
 
