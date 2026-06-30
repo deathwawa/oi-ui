@@ -1,111 +1,112 @@
-# 异常物质 - 交互式 3D 体验
+# Anomalous Matter - Interactive 3D Experience
 
-一个基于 React、TypeScript、Vite 和 Three.js 构建的现代 Web 应用，提供交互式 3D 生成艺术体验。
+A modern web application featuring interactive 3D generative art built with React, TypeScript, Vite, and Three.js.
 
-## 🚀 特性
+## 🚀 Features
 
-- **交互式 3D 图形**：基于 Three.js 的实时 WebGL 渲染
-- **生成艺术**：使用自定义着色器实现程序化动画二十面体
-- **鼠标交互**：动态光照跟随光标移动
-- **现代技术栈**：React 19、TypeScript、Vite 和 Tailwind CSS
-- **响应式设计**：全屏体验，针对移动端优化
-- **性能优化**：使用 Suspense 和高效渲染模式
+- **Interactive 3D Graphics**: Real-time WebGL rendering with Three.js
+- **Generative Art**: Procedurally animated icosahedron with custom shaders
+- **Mouse Interaction**: Dynamic lighting that responds to cursor movement
+- **Modern Stack**: React 19, TypeScript, Vite, and Tailwind CSS
+- **Responsive Design**: Full-screen experience with mobile optimization
+- **Performance Optimized**: Uses Suspense and efficient rendering patterns
 
-## 🛠️ 技术栈
+## 🛠️ Tech Stack
 
-- **前端**：React 19、TypeScript
-- **构建工具**：Vite
-- **3D 引擎**：Three.js
-- **样式**：Tailwind CSS
-- **代码检查**：Oxlint
-- **包管理器**：npm
+- **Frontend**: React 19, TypeScript
+- **Build Tool**: Vite
+- **3D Engine**: Three.js
+- **Styling**: Tailwind CSS
+- **Linting**: Oxlint
+- **Package Manager**: npm
 
-## 📦 安装
+## 📦 Installation
 
-1. 克隆仓库：
-   ```bash
-   git clone <repository-url>
-   cd test
-   ```
+1. Clone the repository:
+`ash
+git clone <repository-url>
+cd test
+`
 
-2. 安装依赖：
-   ```bash
-   npm install
-   ```
+2. Install dependencies:
+`ash
+npm install
+`
 
-3. 启动开发服务器：
-   ```bash
-   npm run dev
-   ```
+3. Start the development server:
+`ash
+npm run dev
+`
 
-4. 在浏览器中打开 http://localhost:5173
+4. Open your browser and navigate to http://localhost:5173
 
-## 🎯 脚本命令
+## 🎯 Scripts
 
-- `npm run dev` - 启动开发服务器（支持热重载）
-- `npm run build` - 构建生产版本
-- `npm run preview` - 预览生产构建
-- `npm run lint` - 运行 Oxlint 代码质量检查
+- 
+pm run dev - Start development server with hot reload
+- 
+pm run build - Build for production
+- 
+pm run preview - Preview production build
+- 
+pm run lint - Run Oxlint for code quality
 
-## 🎨 项目结构
+## 🎨 Project Structure
 
-```
+`
 src/
 ├── components/
 │   └── ui/
-│       └── anomalous-matter-hero.tsx  # 主 3D Hero 组件
-├── assets/                           # 静态资源（图片等）
-├── App.tsx                           # 主应用组件
-├── main.tsx                          # 入口文件
-└── index.css                         # 全局样式
-```
+│       └── anomalous-matter-hero.tsx  # Main 3D hero component
+├── assets/                           # Static assets (images, etc.)
+├── App.tsx                           # Main application component
+├── main.tsx                          # Entry point
+└── index.css                         # Global styles
+`
 
-## 🎮 交互功能
+## 🎮 Interactive Features
 
-3D 场景包含：
+The 3D scene includes:
+- **Animated Geometry**: Icosahedron with Perlin noise displacement
+- **Custom Shaders**: Vertex and fragment shaders for unique visual effects
+- **Dynamic Lighting**: Point light that follows mouse cursor
+- **Continuous Animation**: Smooth rotation and time-based effects
 
-- **动画几何体**：带有柏林噪声位移的二十面体
-- **自定义着色器**：顶点和片元着色器，实现独特视觉效果
-- **动态光照**：点光源跟随鼠标光标移动
-- **持续动画**：平滑旋转和基于时间的动态效果
+## 🎨 Styling
 
-## 🎨 样式设计
+The project uses Tailwind CSS with a color scheme optimized for the 3D experience:
+- Dark theme with subtle gradients
+- Sky blue accent colors
+- Responsive typography
+- Full-screen layout
 
-项目使用 Tailwind CSS，配色方案专为 3D 体验优化：
+## 🚀 Deployment
 
-- 深色主题搭配柔和渐变
-- 天蓝色强调色
-- 响应式排版
-- 全屏布局
+Built with Vite for optimal performance:
+- Fast development server
+- Optimized production builds
+- Automatic code splitting
+- Asset optimization
 
-## 🚀 部署
+## 📄 License
 
-基于 Vite 构建，以获得最佳性能：
+This project is licensed under the MIT License.
 
-- 快速的开发服务器
-- 优化的生产构建
-- 自动代码分割
-- 资源优化
+## 🔧 Configuration
 
-## 📄 许可证
+- **TypeScript**: Strict type checking enabled
+- **Oxlint**: Code linting with React and TypeScript rules
+- **Tailwind CSS**: Custom configuration for project needs
+- **Vite**: Optimized build configuration for React
 
-本项目基于 MIT 许可证开源。
+## 🎯 Future Enhancements
 
-## 🔧 配置
-
-- **TypeScript**：启用严格类型检查
-- **Oxlint**：使用 React 和 TypeScript 规则进行代码检查
-- **Tailwind CSS**：针对项目需求的自定义配置
-- **Vite**：针对 React 的优化构建配置
-
-## 🎯 未来增强
-
-- 更多 3D 场景和组件
-- 性能优化
-- 无障碍访问改进
-- 移动端手势支持
-- 更多交互功能
+- Additional 3D scenes and components
+- Performance optimizations
+- Accessibility improvements
+- Mobile gesture support
+- More interactive features
 
 ---
 
-用 ❤️ 和现代 Web 技术构建
+Built with ❤️ using modern web technologies
