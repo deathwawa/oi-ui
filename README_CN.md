@@ -1,3 +1,5 @@
+<p align="right"> <a href="./README.md">🇺🇸 English</a> | <a href="./README_CN.md">🇨🇳 简体中文</a> </p>  
+
 # 异常物质 - 交互式3D体验应用
 
 一个现代化的Web应用，使用React、TypeScript、Vite和Three.js构建，具有交互式3D生成艺术功能。
